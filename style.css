@@ -87,11 +87,14 @@ p{
 
 }
 .btn{
+    color:aliceblue;
+    font-weight: bold;
     margin: 7px;
     padding: 8px 20px;
     border: 2px solid white;
     border-radius: 8px;
     background-color: indianred ;
+    opacity: 80%;
 }
 .secondHalf{
     width: 30%;
