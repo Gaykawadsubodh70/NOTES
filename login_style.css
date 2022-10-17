@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    color: aliceblue;
 }
 p{
     color:white ;
@@ -40,8 +41,6 @@ p{
 .nav-list li a,a{
     text-decoration: none;
     color: white;
-    
-
 }
 .nav-list li a:hover{
     
@@ -61,7 +60,7 @@ p{
     border-radius: 2px;
     background: none;
 }.background{
-    background: rgba(0, 0, 0, 0.7) url('bg2.jpg');
+    background: rgba(0, 0, 0, 0.7) url('bg.jpg');
     background-size: cover;
     background-blend-mode: darken;
     
@@ -115,4 +114,12 @@ p{
 .text-sm{
     font-size: 18px;
 
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: none;
 }
