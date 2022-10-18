@@ -1,60 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../css/login_style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../css/login_style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar background">
-        <ul class="nav-list">
-            <div class="logo"><img src="../res/images.jpeg" alt="logo"></div>
-            <li> <a href="index.html" >Home</a></li>
-            <li><a href="#Sevices" >Services</a></li>
-            <li><a href="#Contact Us" >Contact Us</a></li>
-            <li><a href="#About" >About</a></li>
-        </ul>
-        <div class="rightNav">
-            <input type="text" name="search" id="search" placeholder="TOC..." style="color: white;">
-            <button class="btn btn-sm">Search</button>
-            <button class="btn btn_lg">
-                <select id="login">
-                    <option value="tudent">Student</option>
-                    <option value="admin">Admin</option>
-                  </select>
-            </button>
-        </div>
+      <ul class="nav-list">
+        <div class="logo"><img src="../res/images.jpeg" alt="logo" /></div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#Sevices">Services</a></li>
+        <li><a href="#Contact Us">Contact Us</a></li>
+        <li><a href="#About">About</a></li>
+      </ul>
+      <div class="rightNav">
+        <input
+          type="text"
+          name="search"
+          id="search"
+          placeholder="TOC..."
+          style="color: white"
+        />
+        <button class="btn btn-sm">Search</button>
+        <button class="btn btn_lg">
+          <select id="login">
+            <option value="tudent">Student</option>
+            <option value="admin">Admin</option>
+          </select>
+        </button>
+      </div>
     </nav>
     <section class="background firstSection">
-        <div class="box-main">
+      <div class="box-main">
+        <div class="firstHalf">
+          <div class="form">
+            <p>STUDENT</p>
+            <br />
+            <input
+              type="text"
+              name="userid"
+              id="userid"
+              placeholder="username"
+            /><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="password"
+            /><br />
+            <input
+              type="mobile number"
+              name="Mobile number"
+              id="mo_no"
+              placeholder="mobile number"
+            /><br />
 
-            <div class="firstHalf">
-                <div class="form">
-                    <p>STUDENT</p><br>
-                    <input type="text" name="userid" id="userid" placeholder="username"><br>
-                    <input type="email" name="email" id="email" placeholder="password"><br>
-                    <input type="mobile number" name="Mobile number" id="mo_no" placeholder="mobile number"><br>
-                    <input type="radio" id="gender" name="gender" value="male">
-                        <label for="html">Male</label>
-                    <input type="radio" id="gender" name="gender" value="female">
-                        <label for="gender">Female</label><br>
-                    <br>
-                        <div class="button">
-                        <button class="btn btn_lg" >
-                            <a href="../html/student.html" >Login</a>
-                        </button>
-                        <button class="btn btn_sp">Sign Up</button>
-                        </div>
-                    </div>
+            <br />
+            <div class="button">
+              <button class="btn btn_lg">
+                <a href="../html/student.html">Login</a>
+              </button>
+              <button class="btn btn_sp">
+                <a href="../html/signup.html">Sign Up</a>
+              </button>
             </div>
-            
-            
-            <div class="secondHalf">
-                <img src="../res/images.jpeg" alt="laptop image" class="">
-            </div>
+          </div>
         </div>
+
+        <div class="secondHalf">
+          <img src="../res/images.jpeg" alt="laptop image" class="" />
+        </div>
+      </div>
     </section>
-</body>
+    <script src="../javascript/admin.js"></script>
+  </body>
 </html>
+<!-- <input type="radio" id="gender" name="gender" value="male">
+<label for="html">Male</label>
+<input type="radio" id="gender" name="gender" value="female">
+<label for="gender">Female</label><br> -->
