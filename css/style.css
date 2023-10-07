@@ -13,7 +13,7 @@ p {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.2) url('../res/bg2.jpg');
-    /* background-size: cover; */
+    background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
 }
