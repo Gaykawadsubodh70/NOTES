@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="../css/navbar.css">
   <link rel="stylesheet" href="../css/login_style.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Login</title>
@@ -35,23 +36,17 @@
     <div class="box-main">
       <div class="firstHalf">
         <div class="form">
-          <p>STUDENT</p>
-          <br />
-          <input type="text" name="userid" id="userid" placeholder="username" /><br />
-          <input type="email" name="email" id="email" placeholder="password" /><br />
-          <input type="mobile number" name="Mobile number" id="mo_no" placeholder="mobile number" /><br />
-
-          <br />
-          <div class="button">
-            <button class="btn btn_lg">
-              <a href="../html/student.html">Login</a>
-            </button>
-            <button class="btn btn_sp">
-              <a href="../html/signup.html">Sign Up</a>
-            </button>
-          </div>
+            <h3>STUDENT</h3>
+            <input type="text" name="username" id="userid" placeholder="enter your name "><br>
+            <input type="text" name="userid" id="usermail" placeholder="email"><br>
+            <input type="email" name="email" id="password" placeholder="create password"><br>
+            <input type="mobile number" name="Mobile number" id="mo_no" placeholder="mobile number"><br>
+            <div class="button lg_sp">
+                <button class="btn btn_lg"><a href="./student.html">Login</a></button>
+                <button class="btn btn_sp"><a href="./login.html">Sign Up</a></button>
+            </div>
         </div>
-      </div>
+    </div>
 
       <div class="secondHalf">
         <img src="../res/images.jpeg" alt="laptop image" class="" />
